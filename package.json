@@ -1,0 +1,21 @@
+{
+  "name": "redis-lab",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "type:check": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "redis": "^4.7.0"
+  }
+}
