@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "type:check": "tsc --noEmit",
-    "build": "tsc"
+    "build": "tsc",
+    "docker:dev": "docker compose --file ./compose.yaml up -d"
   },
   "keywords": [],
   "author": "",
